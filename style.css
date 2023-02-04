@@ -1,0 +1,144 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.deskimage {
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+p.info {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    margin-top: 0;
+    line-height: 1.5em;
+}
+
+div.plan {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    justify-content: center;
+    border-radius: 0.7em;
+}
+
+img.icon {
+    align-self: center;
+    padding-right: 1em;
+    height: min-contents;
+    width: 13%;
+}
+
+p.text {
+    padding-right: 5em;
+    line-height: 1.5em;
+}
+
+span.annual {
+    font-weight: 700;
+}
+
+span.price {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+p.select {
+    align-self: center;
+
+}
+
+.select a {
+    font-size: 0.75rem;
+    color: hsl(245, 75%, 52%);
+    font-weight: 500;
+}
+
+button.pay {
+    background-color: hsl(245, 75%, 52%);
+    border: 0;
+    padding: 1em 6.5em;
+    border-radius: 0.7em;
+    margin-top: 2em;
+    margin-bottom: 1.2em;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.pay:hover {
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.24);
+}
+
+button.decline {
+    background-color: white;
+    border: 0;
+    color: hsl(224, 23%, 55%);
+    padding: 1em 8em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.decline:hover {
+    border-radius: 0.7em;
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    margin-top: 1em;
+    color: hsl(224, 23%, 55%);
+}
+
+@media (max-width: 380px) {
+    body {
+        font-size: 90%;
+    }
+
+    button.pay {
+        font-size: 0.9rem;
+        padding: 1em 5.165em;
+    }
+
+    button.decline {
+        font-size: 0.9rem;
+        padding: 1em 5.165em;
+    }
+
+
+}
